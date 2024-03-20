@@ -413,8 +413,14 @@
 .elementor-6522 .elementor-element.elementor-element-f32d9c6 .elementor-icon-box-wrapper {
     background-color: #fff;
     border-radius: 0 40px;
-    padding: 60px 30px;
-    text-align: center
+    padding: 24px 30px;
+    text-align: center;
+    height: 500px;
+}
+@media screen and (max-width: 1025px){
+    .elementor-6522 .elementor-element.elementor-element-f32d9c6 .elementor-icon-box-wrapper {
+        height: 340px;
+    }
 }
 
 .elementor-6522 .elementor-element.elementor-element-f32d9c6 .elementor-icon-box-wrapper:hover {
@@ -499,7 +505,7 @@
 }
 
 .elementor-6522 .elementor-element.elementor-element-9256c84 img {
-    border-radius: 0 0 0 40px
+    border-radius: 0 40px 0 40px
 }
 
 .elementor-6522 .elementor-element.elementor-element-af501a5 > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {

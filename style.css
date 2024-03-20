@@ -23,8 +23,11 @@ p, h1, h2, h3, h4, h5,h6, span, div, input {
     height: 340px;
     background-color: #fff;
     border-radius: 0 40px;
-    padding: 60px;
+    padding: 34px;
     margin: 0 0 30px;
+}
+.box_designe{
+    flex-wrap: nowrap !important;
 }
 
 @media (min-width: 701px) and (max-width: 1024px) {
@@ -70,7 +73,8 @@ p, h1, h2, h3, h4, h5,h6, span, div, input {
 }
 
 .p_index{
-    font-size: 44px;
+    margin-top: -380px;
+    font-size: 60px;
     font-family: Barlow;
 }
 
@@ -82,6 +86,15 @@ p, h1, h2, h3, h4, h5,h6, span, div, input {
 
     .p_index{
         font-size: 24px;
+    }
+    .box_designe{
+        flex-wrap: wrap !important;
+        justify-content: center!important;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    .elementor-widget-icon-box .elementor-icon-box-title {
+        font-size: 18px!important;
     }
 }
 
@@ -24244,8 +24257,7 @@ template, [hidden] {
 .m-2 {
     margin: .5rem
 }
-
-.mt-2, .my-2 {
+.my-2 {
     margin-top: .5rem
 }
 
