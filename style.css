@@ -73,25 +73,32 @@ p, h1, h2, h3, h4, h5,h6, span, div, input {
 }
 
 .p_index{
-    margin-top: -380px;
+    margin-top: -360px;
     font-size: 60px;
     font-family: Barlow;
 }
-
+@media screen and (max-width: 1400px){
+    .p_index{
+        margin-top: -270px;
+        font-size: 52px;
+    }
+}
 @media screen and (max-width: 1200px) {
     .h5_index{
-        font-size: 54px;
+        font-size: 48px;
         margin-top: -350px;
     }
 
     .p_index{
-        font-size: 24px;
+        margin-top: -230px;
+        font-size: 48px;
     }
     .box_designe{
         flex-wrap: wrap !important;
         justify-content: center!important;
     }
 }
+
 @media screen and (min-width: 1025px) and (max-width: 1280px){
     .elementor-widget-icon-box .elementor-icon-box-title {
         font-size: 18px!important;
@@ -804,7 +811,7 @@ img.wp-smiley, img.emoji {
     display: block;
 }
 .navbar-toggler{
-    color: #3f3f3f;
+    color:white;
     border: 0px;
     float: right;
 }
