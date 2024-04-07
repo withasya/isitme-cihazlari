@@ -1192,7 +1192,7 @@ body.rtl .elementor-6522 .elementor-element.elementor-element-d45ffea {
 .elementor-6522 .elementor-element.elementor-element-f8d9d59 {
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
     margin-top: 0;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
     padding: 0 30px
 }
 
@@ -1236,14 +1236,14 @@ body.rtl .elementor-6522 .elementor-element.elementor-element-d45ffea {
 }
 
 .elementor-6522 .elementor-element.elementor-element-2b7b855:not(.elementor-motion-effects-element-type-background), .elementor-6522 .elementor-element.elementor-element-2b7b855 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-image: url(http://demo2.themelexus.com/gainlove/wp-content/uploads/2020/12/h3-bg03n.jpg);
+    background: url("assets/4.png");
     background-position: bottom center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 .elementor-6522 .elementor-element.elementor-element-2b7b855 {
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
-    padding: 0 30px 450px
+    padding: 0 30px 750px
 }
 
 .elementor-6522 .elementor-element.elementor-element-2b7b855 > .elementor-background-overlay {
